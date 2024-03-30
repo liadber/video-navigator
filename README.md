@@ -1,27 +1,30 @@
-# VideoNavigator
+# Video Navigator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+Video Navigator is a web application designed to demonstrate the management of a video streaming system. It provides a visual representation of a video monitoring system, allowing users to navigate through a mosaic of video streams. The application offers a seamless experience by enabling specific context menus for each video within the mosaic.
 
-## Development server
+## Context-Aware Video Management:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Each video tile within the mosaic is equipped with a context menu tailored to its specific content. This allows users to interact with individual video streams effectively, accessing relevant actions and controls based on the context of each video.
 
-## Code scaffolding
+https://github.com/liadber/video-navigator/assets/44343146/67f4c563-de0d-4ebd-832a-19b8d0cc62e1
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used:
 
-## Build
+- **Angular 17**: The project is built using Angular, a TypeScript-based web application framework.
+  
+- **Angular Material**: Angular Material is utilized for the creation of a responsive and visually appealing grid layout, enhancing the user experience.
+  
+- **CdkMenu**: Leveraging Angular's Component Dev Kit (CDK), CdkMenu is employed to implement context menus for the videos, providing intuitive interaction options.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage:
 
-## Running unit tests
+To explore the Video Navigator application, follow these steps:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository to your local machine.
+2. Install dependencies using npm or yarn.
+3. Run the application using the Angular CLI.
+4. Navigate through the video mosaic and interact with the context menus to explore the functionality.
 
-## Running end-to-end tests
+## Contribution:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contributions to Video Navigator are welcome! If you have ideas for improvements, new features, or encounter any issues, feel free to submit pull requests or raise issues on the GitHub repository.
