@@ -1,0 +1,9 @@
+<div class="videoManager">
+  <mat-grid-list cols="7" rowHeight="10%">
+    <app-menu-context *ngFor="let video of videos" [menuItems]="video.menuItems">
+      <mat-grid-tile [colspan]="video.widthRatio" [rowspan]="video.heightRatio"
+                     [style.background-color]="video.screenColor">
+      </mat-grid-tile>
+    </app-menu-context>
+  </mat-grid-list>
+</div>

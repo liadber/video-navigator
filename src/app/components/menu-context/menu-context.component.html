@@ -1,0 +1,10 @@
+<div [cdkContextMenuTriggerFor]="context_menu" class="context">
+  <ng-content></ng-content>
+</div>
+
+<ng-template #context_menu>
+  <div cdkMenu class="menu">
+    <button (click)="menuItem.onClick" *ngFor="let menuItem of menuItems" cdkMenuItem
+            class="menu-item">{{menuItem.label}}</button>
+  </div>
+</ng-template>

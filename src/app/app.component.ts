@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {Component} from '@angular/core';
+import {VideoManagerComponent} from "./components/video-manager/video-manager.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [VideoManagerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
